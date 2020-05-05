@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/React-with-hooks_shoppls/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-with-hooks_shoppls/static/js/main.6b8c58be.chunk.js",
-    "main.js.map": "/React-with-hooks_shoppls/static/js/main.6b8c58be.chunk.js.map",
+    "main.js": "/React-with-hooks_shoppls/static/js/main.3c3ee956.chunk.js",
+    "main.js.map": "/React-with-hooks_shoppls/static/js/main.3c3ee956.chunk.js.map",
     "runtime-main.js": "/React-with-hooks_shoppls/static/js/runtime-main.17054fcc.js",
     "runtime-main.js.map": "/React-with-hooks_shoppls/static/js/runtime-main.17054fcc.js.map",
     "static/css/2.06798d3e.chunk.css": "/React-with-hooks_shoppls/static/css/2.06798d3e.chunk.css",
-    "static/js/2.b6d0a39e.chunk.js": "/React-with-hooks_shoppls/static/js/2.b6d0a39e.chunk.js",
-    "static/js/2.b6d0a39e.chunk.js.map": "/React-with-hooks_shoppls/static/js/2.b6d0a39e.chunk.js.map",
+    "static/js/2.950337de.chunk.js": "/React-with-hooks_shoppls/static/js/2.950337de.chunk.js",
+    "static/js/2.950337de.chunk.js.map": "/React-with-hooks_shoppls/static/js/2.950337de.chunk.js.map",
     "index.html": "/React-with-hooks_shoppls/index.html",
-    "precache-manifest.47a0a3fc45c4a823d78ecbefa4361ace.js": "/React-with-hooks_shoppls/precache-manifest.47a0a3fc45c4a823d78ecbefa4361ace.js",
+    "precache-manifest.2b94280fe59b5bf2086bf57c4fae2b8e.js": "/React-with-hooks_shoppls/precache-manifest.2b94280fe59b5bf2086bf57c4fae2b8e.js",
     "service-worker.js": "/React-with-hooks_shoppls/service-worker.js",
     "static/css/2.06798d3e.chunk.css.map": "/React-with-hooks_shoppls/static/css/2.06798d3e.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/React-with-hooks_shoppls/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.b6d0a39e.chunk.js.LICENSE.txt": "/React-with-hooks_shoppls/static/js/2.b6d0a39e.chunk.js.LICENSE.txt",
+    "static/js/2.950337de.chunk.js.LICENSE.txt": "/React-with-hooks_shoppls/static/js/2.950337de.chunk.js.LICENSE.txt",
     "static/media/notifications.css": "/React-with-hooks_shoppls/static/media/notification.c0d3c94c.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.17054fcc.js",
     "static/css/2.06798d3e.chunk.css",
-    "static/js/2.b6d0a39e.chunk.js",
+    "static/js/2.950337de.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6b8c58be.chunk.js"
+    "static/js/main.3c3ee956.chunk.js"
   ]
 }
