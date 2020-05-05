@@ -10,7 +10,6 @@ import { StateMachineProvider, createStore ,DevTool} from "little-state-machine"
 
 createStore({
   yourDetails: {
-      index:0,
       Firstname:"",
       Lastname:"",
       Address:"",

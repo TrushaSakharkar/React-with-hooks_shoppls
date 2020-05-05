@@ -20,17 +20,40 @@ const Contact = props => {
     {history.push("/address")}
 
   };
-  const onSubmit = data => {
-    action(data);
+  const callme = data =>{
     console.log(state.yourDetails);
     var e="Your name is ";
     e=e+ state.yourDetails.Firstname + " " + state.yourDetails.Lastname;
     e=e+", you live at "+state.yourDetails.Address + ", " + state.yourDetails.City+ " and you can be contacted at " + state.yourDetails.Email + " or " + state.yourDetails.Contactno; 
     e=e+"."
+    var flag=0;
+    Object.entries(state.yourDetails).map(([key, value]) => {
+      if(value==="" && flag===0)
+      {
+        NotificationManager.error('',"Every place must be filled" , 3000);
+        flag=1;
+        return;
+      }
+  })
+  if(flag===0)
+  {
     NotificationManager.info('', e , 10000);
+  }
 
   // window.location='/print';
   };
+  const onSubmit = data => {
+    action(data);
+    var flag=0;
+    Object.entries(state.yourDetails).map(([key, value]) => {
+      if(value==="" && flag===0)
+      {
+        NotificationManager.error('',"Every place must be filled" , 3000);
+        flag=1;
+        return;
+      }
+  })
+  }
   return (
     <div style={{position:"absolute", left:"45%", top:"35%"}}>
         <NotificationContainer/>
@@ -55,7 +78,12 @@ const Contact = props => {
     </form>
     <br/>
     <br/>
+    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => callme(e)}>Check my details</button>
      
+    <br/>
+    <br/>
+    <br/>
+   
     <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) =>{history.push("/print")}}>Go to shop</button>
     </div>
   );
