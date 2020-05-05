@@ -13,7 +13,7 @@ const Contact = props => {
   });
   const onPrevious = data => {
     action(data);
-    window.location=process.env.PUBLIC_URL+'/address';
+    window.location='/address';
   };
   const onSubmit = data => {
     action(data);
@@ -24,7 +24,7 @@ const Contact = props => {
     e=e+"."
     NotificationManager.info('', e , 10000);
 
-  //window.location='/print';
+  // window.location='/print';
   };
   return (
     <div style={{position:"absolute", left:"45%", top:"35%"}}>
@@ -50,7 +50,7 @@ const Contact = props => {
     </form>
     <br/>
     <br/>
-    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => window.location=process.env.PUBLIC_URL+'/print'}>Go to shop</button>
+    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => window.location='/print'}>Go to shop</button>
     </div>
   );
 };
