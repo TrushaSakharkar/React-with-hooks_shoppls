@@ -50,7 +50,7 @@ const Contact = props => {
     </form>
     <br/>
     <br/>
-    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => window.location='/print'}>Go to shop</button>
+    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => window.location=process.env.PUBLIC_URL+'/print'}>Go to shop</button>
     </div>
   );
 };
