@@ -12,7 +12,7 @@ const Names = props => {
   const onNext = data => {
     action(data);
     console.log(data);
- window.location='/address';
+ window.location=process.env.PUBLIC_URL +'/address';
   };
 
   return (

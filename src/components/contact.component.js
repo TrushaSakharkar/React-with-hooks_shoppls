@@ -13,7 +13,7 @@ const Contact = props => {
   });
   const onPrevious = data => {
     action(data);
-    window.location='/address';
+    window.location=process.env.PUBLIC_URL+'/address';
   };
   const onSubmit = data => {
     action(data);

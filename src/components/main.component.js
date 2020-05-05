@@ -10,7 +10,7 @@ function Main() {
       <div>
       <h1>Page Form Wizard</h1>
 
-      {window.location= '/names'};
+      {window.location= process.env.PUBLIC_URL + '/names'};
       </div>
   );
 }

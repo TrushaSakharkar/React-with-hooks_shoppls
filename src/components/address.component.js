@@ -14,11 +14,11 @@ const Address = props => {
     action(data);
     console.log(state);
     // window.STATE_MACHINE_GET_STORE()
-   window.location='/names';
+   window.location=process.env.PUBLIC_URL+'/names';
   };
   const onNext = data => {
     action(data);
-    window.location='/contact';
+    window.location=process.env.PUBLIC_URL +'/contact';
   };
   return (
     <div style={{position:"absolute", left:"45%", top:"35%"}}>
