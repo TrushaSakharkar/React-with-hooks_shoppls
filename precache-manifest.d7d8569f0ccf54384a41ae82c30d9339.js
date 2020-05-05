@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fe092638fbf57637d710a4a3d603aa9",
+    "revision": "dbbc0aa3e828f227a11ef1739ecbdded",
     "url": "/React-with-hooks_shoppls/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-with-hooks_shoppls/static/css/2.06798d3e.chunk.css"
   },
   {
-    "revision": "4f5a3c122cc38b6f6a4f",
+    "revision": "c92064b81359783be333",
     "url": "/React-with-hooks_shoppls/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-with-hooks_shoppls/static/js/2.950337de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f5a3c122cc38b6f6a4f",
-    "url": "/React-with-hooks_shoppls/static/js/main.3c3ee956.chunk.js"
+    "revision": "c92064b81359783be333",
+    "url": "/React-with-hooks_shoppls/static/js/main.93a553b6.chunk.js"
   },
   {
     "revision": "9ae0e466f373085363c5",
