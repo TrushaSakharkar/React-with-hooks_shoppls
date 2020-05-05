@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-with-hooks_shoppls/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-with-hooks_shoppls/static/js/main.1767d947.chunk.js",
-    "main.js.map": "/React-with-hooks_shoppls/static/js/main.1767d947.chunk.js.map",
+    "main.js": "/React-with-hooks_shoppls/static/js/main.259f274e.chunk.js",
+    "main.js.map": "/React-with-hooks_shoppls/static/js/main.259f274e.chunk.js.map",
     "runtime-main.js": "/React-with-hooks_shoppls/static/js/runtime-main.17054fcc.js",
     "runtime-main.js.map": "/React-with-hooks_shoppls/static/js/runtime-main.17054fcc.js.map",
     "static/css/2.69121389.chunk.css": "/React-with-hooks_shoppls/static/css/2.69121389.chunk.css",
     "static/js/2.322fb893.chunk.js": "/React-with-hooks_shoppls/static/js/2.322fb893.chunk.js",
     "static/js/2.322fb893.chunk.js.map": "/React-with-hooks_shoppls/static/js/2.322fb893.chunk.js.map",
     "index.html": "/React-with-hooks_shoppls/index.html",
-    "precache-manifest.1c2e81798fb1a589e541781fd5c45749.js": "/React-with-hooks_shoppls/precache-manifest.1c2e81798fb1a589e541781fd5c45749.js",
+    "precache-manifest.d0c015776302c8112e684242f2f2c184.js": "/React-with-hooks_shoppls/precache-manifest.d0c015776302c8112e684242f2f2c184.js",
     "service-worker.js": "/React-with-hooks_shoppls/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/React-with-hooks_shoppls/static/css/2.69121389.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/React-with-hooks_shoppls/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.322fb893.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.1767d947.chunk.js"
+    "static/js/main.259f274e.chunk.js"
   ]
 }
