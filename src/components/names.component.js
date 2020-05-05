@@ -3,16 +3,20 @@ import { useForm } from "react-hook-form";
 import { withRouter } from "react-router-dom";
 import { useStateMachine } from "little-state-machine";
 import updateAction from "./updateAction";
+import { useHistory } from "react-router-dom";
+
 
 const Names = props => {
     const { state,action } = useStateMachine(updateAction);
   const { register, handleSubmit } = useForm({
       defaultValues: state.yourDetails  
   });
+  let history = useHistory();
+
   const onNext = data => {
     action(data);
     console.log(data);
- window.location='/address';
+    {history.push("/address")}
   };
 
   return (

@@ -5,15 +5,20 @@ import { useStateMachine } from "little-state-machine";
 import updateAction from "./updateAction";
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import { useHistory } from "react-router-dom";
+
 
 const Contact = props => {
     const { state,action } = useStateMachine(updateAction);
   const { register, handleSubmit } = useForm({
     defaultValues: state.yourDetails  
   });
+  let history = useHistory();
+
   const onPrevious = data => {
     action(data);
-    window.location='/address';
+    {history.push("/address")}
+
   };
   const onSubmit = data => {
     action(data);
@@ -50,7 +55,8 @@ const Contact = props => {
     </form>
     <br/>
     <br/>
-    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) => window.location='/print'}>Go to shop</button>
+     
+    <button style={{position:"absolute"}} className="rounded-pill btn btn-dark" onClick={(e) =>{history.push("/print")}}>Go to shop</button>
     </div>
   );
 };

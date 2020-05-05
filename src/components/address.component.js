@@ -4,21 +4,25 @@ import { withRouter } from "react-router-dom";
 import { useStateMachine } from "little-state-machine";
 import updateAction from "./updateAction";
 import rootElement from "../index.js";
+import { useHistory } from "react-router-dom";
+
 
 const Address = props => {
     const { state,action } = useStateMachine(updateAction);
     const { register, handleSubmit } = useForm({
       defaultValues: state.yourDetails  
     });
+  let history = useHistory();
+
   const onPrevious = data => {
     action(data);
     console.log(state);
     // window.STATE_MACHINE_GET_STORE()
-   window.location='/names';
+    {history.push("/names")}
   };
   const onNext = data => {
     action(data);
-    window.location='/contact';
+    {history.push("/contact")}
   };
   return (
     <div style={{position:"absolute", left:"45%", top:"35%"}}>
