@@ -73,7 +73,7 @@ const Print = props => {
                 </div>
                 {'  '}
                 <div className="form-group">
-                                        <input className="form-control rounded-pill" list="colorData" id="colorlist" placeholder="Color" onChange={(e) => Callme(e)} />
+                                        <input className="form-control rounded-pill" list="colorData" id="colorlist" placeholder="Color" onChange={(e) => setColor(e.target.value)} />
                                         <datalist id="colorData">
                                             {colorlist.map((mylist) => <option value={mylist} />)}
                                         </datalist>
@@ -83,7 +83,7 @@ const Print = props => {
                     <input className="form-control rounded-pill" type="number" placeholder="Min Price" onChange={(e) =>  setMin(e.target.value)} />
                 </div>
                 <div className="form-group">
-                    <input className="form-control rounded-pill" type="number" placeholder="Max Price" onChange={(e) =>  setMax(e.target.value)} />
+                    <input className="form-control rounded-pill" type="number" placeholder="Max Price" onChange={(e) =>  Callme(e)} />
                 </div>
                 </form>
                 </div>
@@ -102,6 +102,7 @@ const Print = props => {
                     { 
                         products.map((currentUserd, i) => {
                             
+                                console.log(product,color,min,max);
                                 if(((product!=="" && currentUserd.product===product) || product==="") && 
                                 ((color!=="" && currentUserd.color===color) || color==="") && 
                                 currentUserd.price>=min &&  currentUserd.price<=max)
