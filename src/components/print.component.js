@@ -48,13 +48,14 @@ const Print = props => {
     const Callme = e => {
         console.log(e.target.value);
         console.log("shfbdsjb");
-        if(e.target.value===null)
+        if(e.target.value!=="")
         {
-            setMax(20000);
+            setMax(e.target.value);
         }
         else
         {
-            setMax(e.target.value);
+            setMax(20000);
+
         }
         
       }
@@ -102,7 +103,7 @@ const Print = props => {
                     { 
                         products.map((currentUserd, i) => {
                             
-                                console.log(product,color,min,max);
+                                console.log(product,color,min,{max});
                                 if(((product!=="" && currentUserd.product===product) || product==="") && 
                                 ((color!=="" && currentUserd.color===color) || color==="") && 
                                 currentUserd.price>=min &&  currentUserd.price<=max)
